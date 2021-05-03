@@ -59,7 +59,7 @@ word = input("Enter the word you want to find the definition of: ")
 output = translate(word)
 # checks to see whether or not the output is a list of definitions
 # if it is, it loops through the list and prints the definitions one by one
-# if it isn't, it simply puts out the single definition
+# if it isn't, it simply gives the single definition as the output
 if type(output) == list:
     for item in output:
         print(item)
